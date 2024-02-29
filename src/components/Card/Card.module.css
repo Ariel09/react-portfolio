@@ -1,0 +1,27 @@
+.card {
+  border: 1px solid rgb(26, 126, 226);
+  padding: 1rem;
+  width: 10rem;
+  color: rgba(27, 25, 25, 0.87);
+  background-color: #ffffff;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.card-title{
+ text-align: left;
+}
+.card-content > p{
+  margin: 0;
+  text-align: left;
+}
+
+.card-button{
+  background-color: rgb(26, 126, 226);
+  border-radius: 5%;
+  border-style: none;
+  width: 100%;
+}

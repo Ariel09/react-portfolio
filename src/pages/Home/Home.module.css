@@ -1,0 +1,28 @@
+.container{
+    background-image: url('../../../public/images/newdomain.png');
+            
+    /* Set background size, repeat, and position as needed */
+    background-size: cover; /* or contain, or specific dimensions */
+    background-repeat: no-repeat; /* or repeat-x, repeat-y, or repeat */
+    background-position: center center; /* or top, bottom, left, right, etc. */
+
+    height: 100%;
+    position: relative;
+}
+
+.text{
+  color: white;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 50rem;
+  text-align: justify;
+}
+
+.text p{
+  font-size: medium;
+}
+
+.welcome{
+  font-size: 2rem;
+}
