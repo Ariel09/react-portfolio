@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Card from "../../components/Card";
 import Modal from '../../components/Modal';
+import PortfolioCss from './Portfolio.module.css';
 
 const dummy = [
     {id: 1, name: 'Name One', description: 'Description1', content: 'Content One'},
@@ -28,8 +29,8 @@ function Portfolio() {
   const subtitle = 'Sample Subtitle';
   const content = 'Sample Content';
   return (
-    <>
-        <div className="card-container">
+    <div className={PortfolioCss['container']}>
+      <div className="card-container">
         {dummy.map((dum) => (
           <Card
           key={dum.id}
@@ -50,7 +51,7 @@ function Portfolio() {
           </>
       : null}
       </Modal>
-    </>
+    </div>
   );
 }
 

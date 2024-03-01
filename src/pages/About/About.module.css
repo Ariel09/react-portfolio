@@ -1,0 +1,61 @@
+.container{
+    background-image: url('../../../public/images/domain1.jpg');
+            
+    /* Set background size, repeat, and position as needed */
+    background-size: cover; /* or contain, or specific dimensions */
+    background-repeat: no-repeat; /* or repeat-x, repeat-y, or repeat */
+    background-position: center center; /* or top, bottom, left, right, etc. */
+
+    height: 100%;
+    display: flex;
+    color: white;
+    box-sizing: border-box;
+    overflow: hidden; /* Add overflow to prevent horizontal scrollbar */
+    position: relative;
+}
+
+.myDiv {
+    height: 50%;
+    width: 50%;
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-wrap: wrap;
+    text-align: justify;
+    overflow: auto; /* Add overflow to handle text overflow */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .selected0 {
+    flex: 2;
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 25%
+  }
+
+  .selected1 {
+    flex: 2;
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 25%
+  }
+  .selected2 {
+    flex: 2;
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+    z-index: 1;
+    position: absolute;
+    left: 25%;
+    top: 25%
+  }
